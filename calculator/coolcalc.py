@@ -9,4 +9,4 @@ class CoolCalc(object):
 
     def multiply_a_b(self, a, b):
         """Take two numbers and return the product."""
-        return a + b
+        return a * b
