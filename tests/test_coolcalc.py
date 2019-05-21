@@ -14,3 +14,10 @@ def test_multiply():
     b = 1
     myproduct = coolcalc.multiply_a_b(a, b)
     assert myproduct == 1
+
+def test_power():
+    coolcalc = CoolCalc()
+    a = 2
+    b = 3
+    mypower = coolcalc.power_a_b(a, b)
+    assert mypower == 8
