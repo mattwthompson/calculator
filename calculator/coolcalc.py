@@ -10,3 +10,7 @@ class CoolCalc(object):
     def multiply_a_b(self, a, b):
         """Take two numbers and return the product."""
         return a * b
+
+    def power_a_b(self, a, b):
+        """Take two numbers and raise a to the power of b"""
+        return a ** b
