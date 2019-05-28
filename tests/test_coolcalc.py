@@ -21,3 +21,10 @@ def test_power():
     b = 3
     mypower = coolcalc.power_a_b(a, b)
     assert mypower == 8
+
+def test_div():
+    coolcalc = CoolCalc()
+    a = 8
+    b = 2
+    mydiv = coolcalc.divide_a_b(a, b)
+    assert mydiv == 4
