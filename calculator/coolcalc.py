@@ -14,3 +14,7 @@ class CoolCalc(object):
     def power_a_b(self, a, b):
         """Take two numbers and raise a to the power of b"""
         return a ** b
+    
+    def divide_a_b(self, a, b):
+        """Take two numbers and divide a by b"""
+        return a / b
